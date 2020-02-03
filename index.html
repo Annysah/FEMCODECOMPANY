@@ -1,12 +1,106 @@
 <!DOCTYPE html>
 <html>
 <head>
+   <title>FemCode Company</title>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
    <link rel="stylesheet" type="text/css" href="res/css/fontawesome/css/all.css">
    <link rel="stylesheet" type="text/css" href="res/css/fontawesome/css/brands.css">
-   <link rel="stylesheet" type="text/css" href="style.css">
-   <title>FemCode Company</title>
+   <style>
+      body {
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace;
+}
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    -webkit-box-shadow: 0 8px 6px -6px #ccc;
+    -moz-box-shadow: 0 8px 6px -6px #ccc;
+    box-shadow: 0 8px 6px -6px #ccc;
+    position: fixed;
+    width: 100%;
+}
+.d-flex {
+    display: flex;
+}
+.justify-between {
+    justify-content: space-between;
+}
+nav ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    color: dodgerblue;
+    margin-right: 30px;
+    transition: 2s all;
+    font-weight: 950;
+    font-size: 18px;
+}
+nav ul li :active {
+    color: purple;
+    transition: 2s all;
+}
+nav ul li a:hover {
+    color: pink;
+    transition: 2s all;
+}
+nav ul li a i {
+    margin-right: 5px;
+}
+div.brand {
+    padding: 25px;
+}
+div.brand a {
+    color:dodgerblue;
+    font-weight: 800;
+    font-size: 25px;
+    text-decoration: none;
+}
+section#landing {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/lap2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 30vh;
+    padding-left: 20px;
+    padding-bottom: 20vh;
+    color: white;
+}
+section#landing > div {
+    width: 100%;
+}
+section#landing h1 {
+    font-size: 45px;
+    font-weight: 900;
+}
+section#landing p {
+    line-height: 30px;
+    font-size: 20px;
+    color: #ccc;
+}
+section#landing button{
+    background-color: dodgerblue;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 2s all;
+    border-radius: 10px;
+    font-size: 15px;
+    border: 0px;
+    font-weight: 900;
+}
+section#landing button:hover {
+    background-color: white;
+    color: pink;
+    transition: 2s all;
+}
+   </style>
 </head>
 <body>
     <header>

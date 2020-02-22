@@ -100,6 +100,109 @@ section#landing button:hover {
     color: pink;
     transition: 2s all;
 }
+section#brief {
+    margin: 70px 50px;
+    font-weight: 900;
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+.justify-around {
+    justify-content: space-around;
+}
+.text-center {
+    text-align: center;
+}
+section#services {
+    padding: 50px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    text-align: center;
+    color: white;
+}
+section#services h1 {
+    font-weight: 900;
+    font-size: 40px;
+}
+section#services p{
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+section#services .d-flex div {
+    padding: 20px;
+    margin: 5px;
+}
+section#services .d-flex div:first-child {
+    background-color: dodgerblue;
+    -webkit-box-shadow: 0 8px 6px -6px dodgerblue;
+    -moz-box-shadow: 0 8px 6px -6px dodgerblue;
+    box-shadow: 0 8px 6px -6px dodgerblue;
+}
+section#services .d-flex div:nth-child(2) {
+    background-color: white;
+    color: #000;
+    -webkit-box-shadow: 0 8px 6px -6px white;
+    -moz-box-shadow: 0 8px 6px -6px white;
+    box-shadow: 0 8px 6px -6px white;  
+}
+section#services .d-flex div:last-child {
+    background-color: black;
+    color: white;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;  
+}
+section#newsletter {
+    padding: 50px;
+    background-color: white;
+}
+section#newsletter h1 {
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+}
+section#newsletter p {
+    text-align: center;
+}
+section#newsletter form {
+    text-align: center;
+    padding: 30px;
+    -webkit-box-shadow: 0 8px 6px -6px dodgerblue;
+    -moz-box-shadow: 0 8px 6px -6px dodgerblue;
+    box-shadow: 0 8px 6px -6px dodgerblue;  
+}
+section#newsletter form label {
+    font-weight: 900;
+}
+section#newsletter form input {
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+}
+section#newsletter button {
+    padding: 10px;
+    background-color: dodgerblue;
+    border: 0px;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+    border-radius: 10px 10px;
+    transition: all 2s;
+}
+section#newsletter button:hover {
+    background-color: black;
+    color: white;
+    transition: 2s all;
+}
+footer {
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 18px;
+}
    </style>
 </head>
 <body>
@@ -142,5 +245,54 @@ section#landing button:hover {
            </div>
        </div>
    </section>
+   <section id="brief">
+       <p>
+           Femcode Africa is an innovative organization that has used technology as a tool for designing and implementing solutions that are ergonomic. Its solutions have dynamically changed the information technology landscape and will continue. We will continue to be an innovative company as our passion, skill and spirit are driven by innovation.
+        </p>
+   </section>
+   <section id="services">
+       <h1>Our Services</h1>
+       <p>Some services we render to give to our clients lives a meaning</p>
+       <div class="d-flex justify-around text-center">
+            <div>
+                <i class="fa fa-edit fa-3x"></i>
+                <h2>Trainings</h2>
+                <p>
+                    Femcode Africa is an innovative organization that has used technology as a tool for designing and implementing solutions that are ergonomic. Its solutions have dynamically changed the information technology landscape and will continue. We will continue to be an innovative company as our passion, skill and spirit are driven by innovation.
+                </p>
+            </div>
+            <div>
+                <i class="fa fa-code fa-3x"></i>
+                <h2>Web Development</h2>
+                <p>
+                    Femcode Africa is an innovative organization that has used technology as a tool for designing and implementing solutions that are ergonomic. Its solutions have dynamically changed the information technology landscape and will continue. We will continue to be an innovative company as our passion, skill and spirit are driven by innovation.
+                </p>
+            </div>
+            <div>
+                <i class="fa fa-users fa-3x"></i>
+                <h2>Meetups and Fellowships</h2>
+                <p>
+                    Femcode Africa is an innovative organization that has used technology as a tool for designing and implementing solutions that are ergonomic. Its solutions have dynamically changed the information technology landscape and will continue. We will continue to be an innovative company as our passion, skill and spirit are driven by innovation.
+                </p>
+            </div>
+       </div>
+   </section>
+   <section id="newsletter">
+       <h1>Subscribe To Our Newsletter</h1>
+       <p>Never Miss An Update From Us</p>
+       <div>
+           <form>
+               <div>
+                   <input type="email" placeholder="Enter email address ">
+                   <button>Subscribe</button>
+               </div>
+           </form>
+       </div>
+   </section>
+   <footer>
+       <div>
+           &copy; 2020 FemCode Africa | All Rights Reserved | Designed by Annysah.
+       </div>
+   </footer>
 </body>
 </html>

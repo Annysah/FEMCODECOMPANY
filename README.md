@@ -1,2 +1,2 @@
 # FEMCODECOMPANY
-A landing page created with HTML5 and CSS
+First ever landing page created with the knowledge of HTML5 and CSS
